@@ -8,9 +8,9 @@ services:
     environment:
       - ROOT_URL=${ROOT_URL}
       - MONGO_URL=mongodb://mongodb/titra?directConnection=true
-      - PORT=3000
+      - PORT=3010
     ports:
-      - "3000:3000"
+      - "3010:3010"
     restart: always
   mongodb:
     image: mongo:5.0
